@@ -1,0 +1,3 @@
+React’s Virtual DOM can be described as a copy of the real DOM, except it lacks the ability to be updated like the real DOM.  The Virtual DOM is not created until after it renders.  Only the data that needs to be updated is updated, which increases its efficiency and performance.
+
+React uses a unidirectional data flow, which allows data to flow in only one direction (parent to child) rather than coming from various other parts of the application.
